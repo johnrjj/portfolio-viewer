@@ -6,7 +6,7 @@ const fetchTradeHistory = async () => {
   const tradeHistoryResponse = await fetch('/api/trade-history')
   const tradeHistoryData: {
     trades: TradeEvent[]
-    assets: SupportedAsset[]
+    assetsMetadata: SupportedAsset[]
   } = await tradeHistoryResponse.json()
   return tradeHistoryData
 }

@@ -4,6 +4,6 @@ import { SAMPLE_ASSETS, SAMPLE_TRADES } from '../../data/historical-trades'
 export default function handler(_req: NextApiRequest, res: NextApiResponse) {
   res.status(200).json({
     trades: SAMPLE_TRADES,
-    assets: SAMPLE_ASSETS,
+    assetsMetadata: SAMPLE_ASSETS,
   })
 }

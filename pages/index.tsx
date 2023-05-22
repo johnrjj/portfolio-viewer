@@ -28,17 +28,17 @@ const PieChartLazy = dynamic(() => import('../components/charts/PieChart'), {
 
 export default function PortfolioOverviewPage() {
   const { data: tradeData } = useTradeHistory()
-  const trades = tradeData?.trades
-  const assetsMetadata = tradeData?.assets
-  const supportedAssetAddresses = assetsMetadata?.map((x) => x.address)
+  const { assets } = useAssets(tradeData?.trades)
 
-  const { assets } = useAssets(trades)
+  const supportedAssetAddresses = tradeData?.assetsMetadata?.map(
+    (x) => x.address,
+  )
   const { data: pricesMap } = usePrices(supportedAssetAddresses)
   const { data: priceChartsMap } = usePriceCharts(supportedAssetAddresses)
 
   const derivedPortfolioData = usePortfolioDerivedData(
     assets,
-    assetsMetadata,
+    tradeData?.assetsMetadata,
     pricesMap,
     priceChartsMap,
   )

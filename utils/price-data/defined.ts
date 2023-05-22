@@ -6,7 +6,7 @@ import type {
   GetUsdPriceArgs,
 } from './defined.types'
 
-const DEFINED_API_KEY = process.env.NEXT_PUBLIC_DEFINED_API_KEY;
+const DEFINED_API_KEY = process.env.NEXT_PUBLIC_DEFINED_API_KEY
 const DEFINED_API_ROOT_URI = 'https://api.defined.fi'
 
 export const definedGraphQLClient = new GraphQLClient(DEFINED_API_ROOT_URI, {
