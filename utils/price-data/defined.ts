@@ -36,7 +36,6 @@ export type TokenPricesQueryResult = {
   getTokenPrices: Price[]
 }
 
-/** useUSDPrices fetcher */
 export const fetchUsdPrices = async (
   inputs: GetUsdPriceArgs,
 ): Promise<DefinedApiUsdPriceResponse> => {
