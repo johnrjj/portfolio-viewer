@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'Jokker';
+  src: url('/fonts/jokker/Jokker-Regular.woff2') format('woff2'),
+    url('/fonts/jokker/Jokker-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jokker';
+  src: url('/fonts/jokker/Jokker-Bold.woff2') format('woff2'),
+    url('/fonts/jokker/Jokker-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jokker';
+  src: url('/fonts/jokker/Jokker-Light.woff2') format('woff2'),
+    url('/fonts/jokker/Jokker-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jokker';
+  src: url('/fonts/jokker/Jokker-Medium.woff2') format('woff2'),
+    url('/fonts/jokker/Jokker-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jokker';
+  src: url('/fonts/jokker/Jokker-Semibold.woff2') format('woff2'),
+    url('/fonts/jokker/Jokker-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jokker';
+  src: url('/fonts/jokker/Jokker-Heavy.woff2') format('woff2'),
+    url('/fonts/jokker/Jokker-Heavy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Matter Mono */
+
+/* @font-face {
+  font-family: 'MatterMono';
+  src: url('/fonts/matter-mono/MatterMono-Regular.woff2') format('woff2'),
+    url('/fonts/matter-mono/MatterMono-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MatterMono';
+  src: url('/fonts/matter-mono/MatterMono-Bold.woff2') format('woff2'),
+    url('/fonts/matter-mono/MatterMono-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MatterMono';
+  src: url('/fonts/matter-mono/MatterMono-Light.woff2') format('woff2'),
+    url('/fonts/matter-mono/MatterMono-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MatterMono';
+  src: url('/fonts/matter-mono/MatterMono-Medium.woff2') format('woff2'),
+    url('/fonts/matter-mono/MatterMono-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MatterMono';
+  src: url('/fonts/matter-mono/MatterMono-SemiBold.woff2') format('woff2'),
+    url('/fonts/matter-mono/MatterMono-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MatterMono';
+  src: url('/fonts/matter-mono/MatterMono-Heavy.woff2') format('woff2'),
+    url('/fonts/matter-mono/MatterMono-Heavy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+} */
+
+/* MatterMono-Bold.woff
+  MatterMono-Bold.woff2
+  MatterMono-Heavy.woff
+  MatterMono-Heavy.woff2
+  MatterMono-Light.woff
+  MatterMono-Light.woff2
+  MatterMono-Medium.woff
+  MatterMono-Medium.woff2
+  MatterMono-Regular.woff
+  MatterMono-Regular.woff2
+  MatterMono-SemiBold.woff
+  MatterMono-SemiBold.woff2
+  MatterSQMono-Bold.woff
+  MatterSQMono-Bold.woff2
+  MatterSQMono-Heavy.woff
+  MatterSQMono-Heavy.woff2
+  MatterSQMono-Light.woff
+  MatterSQMono-Light.woff2
+  MatterSQMono-Medium.woff
+  MatterSQMono-Medium.woff2
+  MatterSQMono-Regular.woff
+  MatterSQMono-Regular.woff2
+  MatterSQMono-SemiBold.woff
+  MatterSQMono-SemiBold.woff2 */
